@@ -1,0 +1,9 @@
+$ git init // menginisialisi folder lokal menjadi respository GIT
+$ git status // melihat status file dalam respository
+$ git add <nama file> // mengubah file tertentu masuk ke dalam stagging area
+$ git add . // mengubah semua file dalam respository tsb masuk ke dalam stagging area
+$ git commit -m "<deskripsi perubahan>" // commit file
+$ git log // melihat histori commit
+$ git log -3 // melihat 3 histori commit terakhir
+$ git log -- <nama file> // melihat histori commit pada sebuah file tertentu
+$ git checkout <5 digit hash> -- <nama file> // mengembalikan file tertentu yang pernah terhapus sebelumnya
