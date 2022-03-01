@@ -1,3 +1,3 @@
-pwd // melihat letak directory saat ini
-cd <directory tujuan> // berpindah ke directory lain
-ls // melihat list ada file apa saja pada folder/directory/respository saat ini
+$ pwd // melihat letak directory saat ini
+$ cd <directory tujuan> // berpindah ke directory lain
+$ ls // melihat list ada file apa saja pada folder/directory/respository saat ini
