@@ -1,9 +1,23 @@
 $ git init // menginisialisi folder lokal menjadi respository GIT
 $ git status // melihat status file dalam respository
+
 $ git add <nama file> // mengubah file tertentu masuk ke dalam stagging area
 $ git add . // mengubah semua file dalam respository tsb masuk ke dalam stagging area
 $ git commit -m "<deskripsi perubahan>" // commit file
+$ git commit -am "<deskripsi perubahan>" // commit file langsung, tanpa add terlebih dahulu
+
 $ git log // melihat histori commit
 $ git log -3 // melihat 3 histori commit terakhir
 $ git log -- <nama file> // melihat histori commit pada sebuah file tertentu
+$ git checkout <5 digit hash> // berpindah ke commit lain
 $ git checkout <5 digit hash> -- <nama file> // mengembalikan file tertentu yang pernah terhapus sebelumnya
+/////////////////////////////////BRANCHING//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+$ git branch // melihat list branch yang sedang aktif
+$ git branch <nama branch> // membuat branch baru
+$ git log --all --decorate --oneline --graph // melihat visualisasi branch
+$ git checkout <nama branch> // berpindah ke branch lain
+/////////////////////////////////MERGING///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+$ git merge <nama branch> // menggabungkan branch lain ke branch master (Head harus berada pada branch master dulu)
+$ git branch --merged // melihat branch yang sudah dimerge
+$ git branch -d <nama branch> // menghapus branch yang sudah tidak terpakai (biasanya setelah dimerge dgn master)
+$ git branch -D <nama branch> // menghapus branch yang sudah tidak terpakai (tidak dimerge dgn master)
