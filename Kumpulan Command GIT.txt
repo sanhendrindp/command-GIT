@@ -21,3 +21,5 @@ $ git merge <nama branch> // menggabungkan branch lain ke branch master (Head ha
 $ git branch --merged // melihat branch yang sudah dimerge
 $ git branch -d <nama branch> // menghapus branch yang sudah tidak terpakai (biasanya setelah dimerge dgn master)
 $ git branch -D <nama branch> // menghapus branch yang sudah tidak terpakai (tidak dimerge dgn master)
+/////////////////////////////////REMOTE///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+$ git clone <link https> // meng-copy respository di github ke local 
