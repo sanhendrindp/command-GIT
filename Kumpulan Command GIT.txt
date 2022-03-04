@@ -1,3 +1,7 @@
+$ git config --global user.name "<nama user>" // memasukan username github ke git bash
+$ git config --global user.email "<nama email>" // memasukan email github ke git bash
+$ git config --list // melihat username github yang digunakan
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 $ git init // menginisialisi folder lokal menjadi respository GIT
 $ git status // melihat status file dalam respository
 
@@ -23,3 +27,4 @@ $ git branch -d <nama branch> // menghapus branch yang sudah tidak terpakai (bia
 $ git branch -D <nama branch> // menghapus branch yang sudah tidak terpakai (tidak dimerge dgn master)
 /////////////////////////////////REMOTE///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 $ git clone <link https> // meng-copy respository di github ke local 
+$ git push // meng-update perubahan + commit yang terjadi pada respository local ke github/origin
