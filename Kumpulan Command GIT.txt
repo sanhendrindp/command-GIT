@@ -26,5 +26,8 @@ $ git branch --merged // melihat branch yang sudah dimerge
 $ git branch -d <nama branch> // menghapus branch yang sudah tidak terpakai (biasanya setelah dimerge dgn master)
 $ git branch -D <nama branch> // menghapus branch yang sudah tidak terpakai (tidak dimerge dgn master)
 /////////////////////////////////REMOTE///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+$ git remote // mengecek nama remote (nama defaultnya adalah origin biasanya)
+$ git remote -v // mengecek apakah respository local sudah terhubung dgn github atau tidak
 $ git clone <link https> // meng-copy respository di github ke local 
-$ git push // meng-update perubahan + commit yang terjadi pada respository local ke github/origin
+$ git push // meng-update perubahan + commit yang terjadi pada respository local ke respository github
+$ git pull // meng-update perubahan + commit yang terjadi pada respository github ke respository local
