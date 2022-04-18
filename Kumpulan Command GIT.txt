@@ -31,3 +31,6 @@ $ git remote -v // mengecek apakah respository local sudah terhubung dgn github 
 $ git clone <link https> // meng-copy respository di github ke local 
 $ git push // meng-update perubahan + commit yang terjadi pada respository local ke respository github
 $ git pull // meng-update perubahan + commit yang terjadi pada respository github ke respository local
+/////////////////////////////////LOCAL KE GITHUB//////////////////////////////////////////////////////////////////////////////////////////////////////////
+$ git remote add <nama remote> <link> // mendaftarkan respository local ke github
+$ git push <nama remote> master // push perubahan ke github
