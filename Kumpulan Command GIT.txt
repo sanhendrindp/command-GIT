@@ -19,6 +19,7 @@ $ git checkout <5 digit hash> -- <nama file> // mengembalikan file tertentu yang
 $ git branch // melihat list branch yang sedang aktif
 $ git branch <nama branch> // membuat branch baru
 $ git log --all --decorate --oneline --graph // melihat visualisasi branch
+$ git log --oneline // melihat visualisasi branch
 $ git checkout <nama branch> // berpindah ke branch lain
 /////////////////////////////////MERGING///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 $ git merge <nama branch> // menggabungkan branch lain ke branch master (Head harus berada pada branch master dulu)
