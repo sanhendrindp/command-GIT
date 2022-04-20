@@ -19,7 +19,7 @@ $ git checkout <5 digit hash> -- <nama file> // mengembalikan file tertentu yang
 $ git branch // melihat list branch yang sedang aktif
 $ git branch <nama branch> // membuat branch baru
 $ git log --all --decorate --oneline --graph // melihat visualisasi branch
-$ git log --oneline // melihat visualisasi branch
+$ git log --oneline // melihat log dalam one line
 $ git checkout <nama branch> // berpindah ke branch lain
 /////////////////////////////////MERGING///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 $ git merge <nama branch> // menggabungkan branch lain ke branch master (Head harus berada pada branch master dulu)
@@ -32,6 +32,8 @@ $ git remote -v // mengecek apakah respository local sudah terhubung dgn github 
 $ git clone <link https> // meng-copy respository di github ke local 
 $ git push // meng-update perubahan + commit yang terjadi pada respository local ke respository github
 $ git pull // meng-update perubahan + commit yang terjadi pada respository github ke respository local
+$ git fetch //  meng-update perubahan log yang terjadi pada github
 /////////////////////////////////LOCAL KE GITHUB//////////////////////////////////////////////////////////////////////////////////////////////////////////
 $ git remote add <nama remote> <link> // mendaftarkan respository local ke github
 $ git push <nama remote> master // push perubahan ke github
+$ git pull <nama remote> master // pull perubahan ke local
