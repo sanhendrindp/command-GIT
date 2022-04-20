@@ -15,6 +15,7 @@ $ git log -3 // melihat 3 histori commit terakhir
 $ git log -- <nama file> // melihat histori commit pada sebuah file tertentu
 $ git checkout <5 digit hash> // berpindah ke commit lain
 $ git checkout <5 digit hash> -- <nama file> // mengembalikan file tertentu yang pernah terhapus sebelumnya
+$ git checkout master // Kembali ke kondisi commit semula
 /////////////////////////////////BRANCHING//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 $ git branch // melihat list branch yang sedang aktif
 $ git branch <nama branch> // membuat branch baru
